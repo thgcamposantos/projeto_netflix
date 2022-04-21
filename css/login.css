@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+}
+#global{
+    background-image: url(../imagens/Netflix-está-removendo-filmes-mais-rápido.jpg);
+    background-size: cover;
+    margin: 0;
+    height: 600px;
+}
+header img{
+    width: 70px;
+    height: 100px;
+}
+form{
+    margin: auto;
+    width: 250px;
+    display: block;
+    background-color: rgba(0, 0, 0, .8);
+    padding: 10px 30px;
+    position: relative;
+}
+form h2{
+    font: 17px arial normal;
+    color: white;
+}
+form input[class="acesso-login"]{
+    padding: 10px;
+    margin: 10px auto 20px;
+    width: 100%;
+    box-sizing: border-box;
+   
+}
+form input[type="submit"]{
+    padding: 10px;
+    background-color: red;
+    display: block;
+    color: white;
+    width: 100%;
+    margin-bottom: 10px;
+}
+input[type="checkbox"]{
+    width: 10px;
+    padding: 0px;
+    margin: 0px;
+}
+form label{
+    color: white;
+    font: 12px arial normal;
+}
+form input[type="checkbox"]{
+    margin-right: 5px;
+}
+form #ajuda-form{
+    font: 12px arial normal;
+    color: white;
+    text-decoration: unset;
+    position: absolute;
+    right: 30px;
+    margin-top: 2px;
+}
+form #ajuda-form:hover{
+    text-decoration: underline;
+}
+
+
+.div-form-final{
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div-form-final a{
+    color: gray;
+    text-decoration: unset;
+    font: 12px arial normal;
+}
+
+.div-form-final p:nth-child(2){
+    color: gray;
+}
+.div-form-final #form-assine{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.div-form-final #form-assine:hover{
+    text-decoration: underline;
+}
+.div-form-final p:nth-child(3){
+    color: white;
+    font: 10px arial normal;
+}
+.div-form-final #form-saiba{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+footer{
+    background-color: rgba(0, 0, 0, .8);
+}
