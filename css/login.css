@@ -4,12 +4,15 @@ body{
 #global{
     background-image: url(../imagens/Netflix-está-removendo-filmes-mais-rápido.jpg);
     background-size: cover;
-    margin: 0;
-    height: 600px;
-}
+    /* margin: 0; */
+    height: 750px;
+}}
 header img{
     width: 70px;
     height: 100px;
+}
+#separaao{
+    margin-bottom: 50px;
 }
 form{
     margin: auto;
@@ -92,8 +95,27 @@ form #ajuda-form:hover{
     color: blue;
     font-family: Arial, Helvetica, sans-serif;
 }
+#form-saiba:hover{
+    text-decoration: underline;
+}
 
 
 footer{
     background-color: rgba(0, 0, 0, .8);
+    padding: 100px;
+    color: white;
+    margin: 50px 0px  0px;
+}
+.div-footer-global{
+    display: flex;
+}
+.div-footer{
+    display: block;
+    width: 300px;
+}
+.div-footer a{
+    display: block;
+    color: white;
+    margin: 20px 0px;
+    text-decoration: unset;
 }
