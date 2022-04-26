@@ -9,34 +9,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix - Login</title>
     <link rel="stylesheet" href="css/login.css">
+    <script src="https://kit.fontawesome.com/fffbaac515.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="global">
-        <header>
-            <!-- <img src="imagens/netflix-logo-5.png" alt="logomarca da Netflix"> -->
-        </header>
-        <form action="" method="get">
-            <h2><b>Entrar</b></h2>
-            
-            <input type="email" placeholder="Email" name="email-login" class="acesso-login" required>
-            <input type="password" placeholder="Senha" name="senha-login" class="acesso-login" required>
-
-            <input type="submit" value="Entrar">
-            <label for="lembrar"><input type="checkbox" id="lembrar" checked>Lembre-se de mim</label>
-            <a href="#" id="ajuda-form">Precisa de ajuda</a>
-            <div class="div-form-final">
-                <a href="#">Conectar com Facebook</a>
-                <p>Novo por aqui? <a href="#" id="form-assine">Assine agora</a></p>
-                <p>Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô. <a href="#" id="form-saiba">Saiba mais.</a></p>
+        <!-- <header>
+            <img src="imagens/netflix-logo-5.png" alt="logomarca da Netflix">  
+        </header> -->
+            <div class="bloco-formulario">
+                <form action="" method="get">
+                    <h2><b>Entrar</b></h2>
+                    
+                    <input type="email" placeholder="Email" name="email-login" class="acesso-login" required>
+                    <input type="password" placeholder="Senha" name="senha-login" class="acesso-login" required>
+        
+                    <input type="submit" value="Entrar">
+                    <label for="lembrar"><input type="checkbox" id="lembrar" checked>Lembre-se de mim</label>
+                    <a href="#" id="ajuda-form">Precisa de ajuda</a>
+                    <div class="div-form-final">
+                        <a href="#"><i class="fa-brands fa-facebook-square"></i>Conectar com Facebook</a>
+                        <p>Novo por aqui? <a href="#" id="form-assine">Assine agora</a></p>
+                        <p>Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô. <a href="#" id="form-saiba">Saiba mais.</a></p>
+                    </div>
+                </form>
             </div>
-        </form>
 
         <footer>
             <h3>Dúvidas? Ligue <a href="#">0800-761-4631</a></h3>
                 <div class="div-footer-global">
                     <div class="div-footer">
-                        <a href="#">Perguntas Frequentes</a>
-                        <a href="#">Prefência de cookies</a>
+                        <a href="#" title="Perguntas Frequentes">Perguntas Frequentes</a>
+                        <a href="#" title="Prefência de cookies">Prefência de cookies</a>
                     </div>
                     <div class="div-footer">
                         <a href="#">Centro de ajuda</a>
