@@ -1,134 +1,101 @@
-body{
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* body{
     background-image: url(../imagens/Netflix-está-removendo-filmes-mais-rápido.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0px;
-}
-/* header{
-    background-color:  rgba(0,0,0,.2);
-    width: 100%;
-    height: 80px;
-    margin: 0px;    
-}
-/* header img{
-    width: 170px;
-    height: 40px;
-    margin: 20px 0px 0px 40px;
+
 } */
-.bloco-formulario{
-    margin: 50px auto;
-    width: 300px;
-    padding: 50px;
-    background-color:  rgba(0,0,0,.93);
+header{
+    padding: 10px 0px;
+    width: auto;
+    box-sizing: border-box;
+    background-color: rgba(0 , 0 , 0, .9);
 }
+header img{
+    width: 100px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+
+.painel-formulario{
+    justify-content: center;
+}
+
 form{
-    width: 300px;
-}
-form h2{
+    width: auto;
+    padding: 20px 10px;
+    background-color: rgba(0 , 0 , 0, .9);
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 1.1px;
+    justify-content: center;
+    font-size: 10px;
 }
+
+form h1{
+    margin: 30px 0px 25px;
+    font-size: 40px;
+}
+
 form input{
+    display: block;
+    border-radius: 10px;
     width: 100%;
     box-sizing: border-box;
-    margin: 5px 0px;
+    margin: 5px 0px 20px;
     padding: 15px;
-    border-radius: 5px;
+}
+form input[type="password"]{
+    margin-bottom: 35px;
 }
 form input[type="submit"]{
     background-color: red;
-    margin-top: 15px;
-    color: white;
-    letter-spacing: 1.0px;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-}
-input[type="checkbox"]{
-    padding: 0px;
-    width: 20px;
-    margin-right: 10px;
-}
-form label{
-    color: white;
-    font-size: 14.5px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-/* .fa-brands{
-    height: 20px;
-    width: 20px;
-    margin-right: 5px;
-} */
-#ajuda-form{
-    float: right;
-    margin-top: 1.5px;
-    color: white;
-    text-decoration: unset;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-#ajuda-form:hover{
-    text-decoration: underline;
-}
-
-.div-form-final{
-    margin-top: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-}
-.div-form-final a{
-    color: white;
-    text-decoration: unset;
-}
-.div-form-final p{
-    color: gray;
-}
-#form-assine{
-    color: white;
-    margin-left: 4px;
-}
-#form-assine:hover{
-    text-decoration: underline;
-}
-.div-form-final p a{
-    color: blue;
-}
-.div-form-final p a:hover{
-    text-decoration: underline;
-}
-
-
-
-
-
-footer{
-    background-color: rgba(0,0,0,.8);
-    padding: 40px;
-    color: white;
-}
-footer h3 a{
-    color: white;
-    margin-left: 5px;
-    text-transform: uppercase;
-    border-bottom: dotted 1px white;
-    text-decoration: unset;
-}
-footer h3{
-    margin: 20px 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-}
-.div-footer-global{
-    display: flex;
-}
-.div-footer{
-    margin: 10px 40px;
-}
-.div-footer a{
-    display: block;
-    margin: 20px 0px;
-    color: white;
-    text-decoration: unset;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    letter-spacing: 1.2px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.verificacao{
+    margin: 10px 0px 30px;
+}
+.verificacao input{
+    margin: 0px 5px 0px 0px;
+    width: 25px;
+    display: inline-block;
+}
+.verificacao label{
+    font-size: 14px;
+}
+.verificacao p{
+    float: right;
+}
+.verificacao p > a{
+    color: white;
+    margin-right: 5px;
+    font-size: 14px;
+    text-decoration: unset;
+}
+
+
+.form-text h3{
+    margin: 0px 0px 30px;
     font-size: 16px;
+    padding-bottom: 30px;
+}
+.form-text h3 > a{
+    color: white;
+    text-decoration: unset;
+    margin-left: 5px;
+}
+.form-text h3 > a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.form-text p{
+    font-size: 14px;
 }
