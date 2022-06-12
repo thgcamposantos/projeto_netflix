@@ -16,7 +16,7 @@ header{
     background-color: rgba(0 , 0 , 0, .9);
 }
 header img{
-    width: 100px;
+    width: 95px;
     height: 40px;
     margin-left: 20px;
 }
@@ -97,5 +97,41 @@ form input[type="submit"]{
     text-decoration: underline;
 }
 .form-text p{
-    font-size: 14px;
+    font-size: 15px;
+}
+.form-text p a{
+    margin: 3px 0px 0px 8px;
+    color: gray;
+}
+
+
+footer{
+    color: white;
+    background-color: rgba(0 , 0 , 0, .9);
+    padding: 15px 0px 30px;
+}
+footer p:nth-child(1){
+    margin: 15px 10px;
+
+}
+footer p a:nth-child(1){
+    color: rgb(199, 180, 180);
+}
+.flexbox-footer-pai{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.flexbox-footer-filho{
+    margin: 15px 10px;
+}
+.flexbox-footer-filho a{
+    display: block;
+    color: white;
+    text-decoration: unset;
+    margin: 15px 0px;
+}
+footer select{
+    margin: 15px 10px;
+    padding: 10px;
 }
