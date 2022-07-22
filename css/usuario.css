@@ -30,6 +30,7 @@ header img{
 
 .bloco-pai{
     display: flex;
+    cursor: pointer;
     text-align: center;
 }
 .bloco-filho{
