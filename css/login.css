@@ -132,7 +132,7 @@ footer p a:nth-child(1){
 }
 footer select{
     margin: 15px 10px;
-    padding: 15px 25px;
+    padding: 5px 25px;
 }
 
 
@@ -144,20 +144,26 @@ footer select{
         box-sizing: border-box;
         background-color: transparent;
     }
+    header img{
+        width: 100px;
+        height: 40px;
+        margin-top: 10px;
+    }
     body{
-        background-image: url(../imagens/Netflix-está-removendo-filmes-mais-rápido.jpg);
+        background-image: linear-gradient(rgba(12, 12, 12, 0.9) , transparent) , url(../imagens/banner.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
     form{
         width: 350px;
         max-width: 400px;
-        margin: 10vh auto;
-        padding: 20px;
+        margin: 3vh auto;
+        padding: 25px;
         background-color: rgba(0 , 0 , 0, .9);
         color: white;
         justify-content: center;
         font-size: 10px;
+        border-radius: 10px;
     }
     footer{
         color: white;
@@ -176,10 +182,10 @@ footer select{
         display: block;
         color: white;
         text-decoration: unset;
-        margin: 15px 0px;
+        margin: 15px 10px 0px 0px;
     }
     footer select{
         margin: 15px 10px;
-        padding: 15px 25px;
+        padding: 5px 15px;
     }   
 }
